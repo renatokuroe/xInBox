@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51105D841A14412B00F26AE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51105D831A14412B00F26AE2 /* main.m */; };
+		51105D871A14412B00F26AE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51105D861A14412B00F26AE2 /* AppDelegate.m */; };
+		51105D8A1A14412B00F26AE2 /* XInboxApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51105D881A14412B00F26AE2 /* XInboxApp.xcdatamodeld */; };
+		51105D8D1A14412B00F26AE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51105D8C1A14412B00F26AE2 /* ViewController.m */; };
+		51105D901A14412B00F26AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51105D8E1A14412B00F26AE2 /* Main.storyboard */; };
+		51105D921A14412B00F26AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51105D911A14412B00F26AE2 /* Images.xcassets */; };
+		51105D951A14412B00F26AE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51105D931A14412B00F26AE2 /* LaunchScreen.xib */; };
+		51105DA11A14412B00F26AE2 /* XInboxAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51105DA01A14412B00F26AE2 /* XInboxAppTests.m */; };
+		51105DB41A1443A000F26AE2 /* ServerOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 51105DAC1A1443A000F26AE2 /* ServerOperations.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51105DB51A1443A000F26AE2 /* TIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51105DAE1A1443A000F26AE2 /* TIRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51105DB61A1443A000F26AE2 /* TIRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51105DB11A1443A000F26AE2 /* TIRequestManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51105DB71A1443A000F26AE2 /* TIRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51105DB31A1443A000F26AE2 /* TIRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51105D9B1A14412B00F26AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51105D761A14412B00F26AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51105D7D1A14412B00F26AE2;
+			remoteInfo = XInboxApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51105D7E1A14412B00F26AE2 /* XInboxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XInboxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51105D821A14412B00F26AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51105D831A14412B00F26AE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51105D851A14412B00F26AE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51105D861A14412B00F26AE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51105D891A14412B00F26AE2 /* XInboxApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XInboxApp.xcdatamodel; sourceTree = "<group>"; };
+		51105D8B1A14412B00F26AE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51105D8C1A14412B00F26AE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51105D8F1A14412B00F26AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51105D911A14412B00F26AE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51105D941A14412B00F26AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		51105D9A1A14412B00F26AE2 /* XInboxAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XInboxAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51105D9F1A14412B00F26AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51105DA01A14412B00F26AE2 /* XInboxAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XInboxAppTests.m; sourceTree = "<group>"; };
+		51105DAB1A1443A000F26AE2 /* ServerOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerOperations.h; sourceTree = "<group>"; };
+		51105DAC1A1443A000F26AE2 /* ServerOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerOperations.m; sourceTree = "<group>"; };
+		51105DAD1A1443A000F26AE2 /* TIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIRequest.h; sourceTree = "<group>"; };
+		51105DAE1A1443A000F26AE2 /* TIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIRequest.m; sourceTree = "<group>"; };
+		51105DAF1A1443A000F26AE2 /* TIRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIRequestDelegate.h; sourceTree = "<group>"; };
+		51105DB01A1443A000F26AE2 /* TIRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIRequestManager.h; sourceTree = "<group>"; };
+		51105DB11A1443A000F26AE2 /* TIRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIRequestManager.m; sourceTree = "<group>"; };
+		51105DB21A1443A000F26AE2 /* TIRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIRequestOperation.h; sourceTree = "<group>"; };
+		51105DB31A1443A000F26AE2 /* TIRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIRequestOperation.m; sourceTree = "<group>"; };
+		51105DB91A1445F500F26AE2 /* XInBoxApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XInBoxApp-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51105D7B1A14412B00F26AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51105D971A14412B00F26AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51105D751A14412B00F26AE2 = {
+			isa = PBXGroup;
+			children = (
+				51105D801A14412B00F26AE2 /* XInboxApp */,
+				51105D9D1A14412B00F26AE2 /* XInboxAppTests */,
+				51105D7F1A14412B00F26AE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51105D7F1A14412B00F26AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51105D7E1A14412B00F26AE2 /* XInboxApp.app */,
+				51105D9A1A14412B00F26AE2 /* XInboxAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51105D801A14412B00F26AE2 /* XInboxApp */ = {
+			isa = PBXGroup;
+			children = (
+				51105DAA1A1443A000F26AE2 /* ServerOperations */,
+				51105D851A14412B00F26AE2 /* AppDelegate.h */,
+				51105D861A14412B00F26AE2 /* AppDelegate.m */,
+				51105D8B1A14412B00F26AE2 /* ViewController.h */,
+				51105D8C1A14412B00F26AE2 /* ViewController.m */,
+				51105D8E1A14412B00F26AE2 /* Main.storyboard */,
+				51105D911A14412B00F26AE2 /* Images.xcassets */,
+				51105D931A14412B00F26AE2 /* LaunchScreen.xib */,
+				51105D881A14412B00F26AE2 /* XInboxApp.xcdatamodeld */,
+				51105D811A14412B00F26AE2 /* Supporting Files */,
+			);
+			path = XInboxApp;
+			sourceTree = "<group>";
+		};
+		51105D811A14412B00F26AE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51105D821A14412B00F26AE2 /* Info.plist */,
+				51105D831A14412B00F26AE2 /* main.m */,
+				51105DB91A1445F500F26AE2 /* XInBoxApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51105D9D1A14412B00F26AE2 /* XInboxAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				51105DA01A14412B00F26AE2 /* XInboxAppTests.m */,
+				51105D9E1A14412B00F26AE2 /* Supporting Files */,
+			);
+			path = XInboxAppTests;
+			sourceTree = "<group>";
+		};
+		51105D9E1A14412B00F26AE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51105D9F1A14412B00F26AE2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51105DAA1A1443A000F26AE2 /* ServerOperations */ = {
+			isa = PBXGroup;
+			children = (
+				51105DAB1A1443A000F26AE2 /* ServerOperations.h */,
+				51105DAC1A1443A000F26AE2 /* ServerOperations.m */,
+				51105DAD1A1443A000F26AE2 /* TIRequest.h */,
+				51105DAE1A1443A000F26AE2 /* TIRequest.m */,
+				51105DAF1A1443A000F26AE2 /* TIRequestDelegate.h */,
+				51105DB01A1443A000F26AE2 /* TIRequestManager.h */,
+				51105DB11A1443A000F26AE2 /* TIRequestManager.m */,
+				51105DB21A1443A000F26AE2 /* TIRequestOperation.h */,
+				51105DB31A1443A000F26AE2 /* TIRequestOperation.m */,
+			);
+			path = ServerOperations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51105D7D1A14412B00F26AE2 /* XInboxApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51105DA41A14412C00F26AE2 /* Build configuration list for PBXNativeTarget "XInboxApp" */;
+			buildPhases = (
+				51105D7A1A14412B00F26AE2 /* Sources */,
+				51105D7B1A14412B00F26AE2 /* Frameworks */,
+				51105D7C1A14412B00F26AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XInboxApp;
+			productName = XInboxApp;
+			productReference = 51105D7E1A14412B00F26AE2 /* XInboxApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51105D991A14412B00F26AE2 /* XInboxAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51105DA71A14412C00F26AE2 /* Build configuration list for PBXNativeTarget "XInboxAppTests" */;
+			buildPhases = (
+				51105D961A14412B00F26AE2 /* Sources */,
+				51105D971A14412B00F26AE2 /* Frameworks */,
+				51105D981A14412B00F26AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51105D9C1A14412B00F26AE2 /* PBXTargetDependency */,
+			);
+			name = XInboxAppTests;
+			productName = XInboxAppTests;
+			productReference = 51105D9A1A14412B00F26AE2 /* XInboxAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51105D761A14412B00F26AE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Renato Toshio Kuroe";
+				TargetAttributes = {
+					51105D7D1A14412B00F26AE2 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					51105D991A14412B00F26AE2 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 51105D7D1A14412B00F26AE2;
+					};
+				};
+			};
+			buildConfigurationList = 51105D791A14412B00F26AE2 /* Build configuration list for PBXProject "XInboxApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51105D751A14412B00F26AE2;
+			productRefGroup = 51105D7F1A14412B00F26AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51105D7D1A14412B00F26AE2 /* XInboxApp */,
+				51105D991A14412B00F26AE2 /* XInboxAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51105D7C1A14412B00F26AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51105D901A14412B00F26AE2 /* Main.storyboard in Resources */,
+				51105D951A14412B00F26AE2 /* LaunchScreen.xib in Resources */,
+				51105D921A14412B00F26AE2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51105D981A14412B00F26AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51105D7A1A14412B00F26AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51105DB51A1443A000F26AE2 /* TIRequest.m in Sources */,
+				51105D871A14412B00F26AE2 /* AppDelegate.m in Sources */,
+				51105D8A1A14412B00F26AE2 /* XInboxApp.xcdatamodeld in Sources */,
+				51105D8D1A14412B00F26AE2 /* ViewController.m in Sources */,
+				51105DB41A1443A000F26AE2 /* ServerOperations.m in Sources */,
+				51105DB61A1443A000F26AE2 /* TIRequestManager.m in Sources */,
+				51105DB71A1443A000F26AE2 /* TIRequestOperation.m in Sources */,
+				51105D841A14412B00F26AE2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51105D961A14412B00F26AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51105DA11A14412B00F26AE2 /* XInboxAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51105D9C1A14412B00F26AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51105D7D1A14412B00F26AE2 /* XInboxApp */;
+			targetProxy = 51105D9B1A14412B00F26AE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51105D8E1A14412B00F26AE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51105D8F1A14412B00F26AE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51105D931A14412B00F26AE2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51105D941A14412B00F26AE2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51105DA21A14412C00F26AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51105DA31A14412C00F26AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51105DA51A14412C00F26AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "XInBoxApp/XinboxApp-Prefix.pch";
+				INFOPLIST_FILE = XInboxApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51105DA61A14412C00F26AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "XInBoxApp/XinboxApp-Prefix.pch";
+				INFOPLIST_FILE = XInboxApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		51105DA81A14412C00F26AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XInboxAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XInboxApp.app/XInboxApp";
+			};
+			name = Debug;
+		};
+		51105DA91A14412C00F26AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XInboxAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XInboxApp.app/XInboxApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51105D791A14412B00F26AE2 /* Build configuration list for PBXProject "XInboxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51105DA21A14412C00F26AE2 /* Debug */,
+				51105DA31A14412C00F26AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51105DA41A14412C00F26AE2 /* Build configuration list for PBXNativeTarget "XInboxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51105DA51A14412C00F26AE2 /* Debug */,
+				51105DA61A14412C00F26AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51105DA71A14412C00F26AE2 /* Build configuration list for PBXNativeTarget "XInboxAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51105DA81A14412C00F26AE2 /* Debug */,
+				51105DA91A14412C00F26AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		51105D881A14412B00F26AE2 /* XInboxApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				51105D891A14412B00F26AE2 /* XInboxApp.xcdatamodel */,
+			);
+			currentVersion = 51105D891A14412B00F26AE2 /* XInboxApp.xcdatamodel */;
+			path = XInboxApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 51105D761A14412B00F26AE2 /* Project object */;
+}

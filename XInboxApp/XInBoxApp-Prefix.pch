@@ -1,0 +1,14 @@
+//
+//  XInBoxApp-Prefix.pch
+//  XInboxApp
+//
+//  Created by Renato Kuroe on 12/11/14.
+//  Copyright (c) 2014 Renato Toshio Kuroe. All rights reserved.
+//
+
+#ifndef XInboxApp_XInBoxApp_Prefix_pch
+#define XInboxApp_XInBoxApp_Prefix_pch
+
+#import "UIKit/UIKit.h"
+
+#endif
